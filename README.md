@@ -1,4 +1,4 @@
-# Tema IA 2025
+# Sokoban HW AI
 
 ## Algorithms Implemented
 
