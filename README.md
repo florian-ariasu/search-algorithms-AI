@@ -1,8 +1,10 @@
-# Sokoban HW AI
+# AI Search Algorithms
+
+This project focuses on implementing and comparing various AI search algorithms. The algorithms were tested using **Sokoban** as the problem domain (Sokoban itself was not implemented by me, only used as a test environment).
 
 ## Algorithms Implemented
 
-For this project I have implemented and tested the following algorithms:
+For this project I have implemented and tested the following AI search algorithms:
 
 - **IDA*** – Iterative Deepening A*  
 - **Push_IDA*** – attempted (not fully functional)  
@@ -15,6 +17,8 @@ For this project I have implemented and tested the following algorithms:
 ---
 
 ## Feature Description
+
+**Note:** This project's main contribution is the implementation of the AI search algorithms listed above. Sokoban is used solely as a benchmark problem to test and compare the algorithms' performance. The Sokoban game logic itself was not implemented by me.
 
 ### Development Process
 - Started with **IDA***, which works on smaller test cases (`easy_map1`, `easy_map2`, `medium_map1`) but becomes inefficient for larger maps.  
@@ -43,9 +47,9 @@ For this project I have implemented and tested the following algorithms:
 - Graphs (bar plots, tables) were generated with **Matplotlib**, **Pandas**, and **Seaborn**.  
 
 ### OOP & Design Choices
-- Algorithms are implemented in the **`/search_methods`** directory.  
-- **`main.py`** is the entry point of the program.  
-- **`main.ipynb`** was used for visualising performance with graphs.  
+- The AI search algorithms are implemented in the **`/src`** directory (e.g., `a_star.py`, `ida_star.py`, `simulated_annealing.py`, etc.).  
+- **`main.py`** is the entry point of the program, orchestrating the search algorithms on Sokoban test maps.  
+- **`main.ipynb`** was used for visualising algorithm performance with graphs.  
 
 ---
 
