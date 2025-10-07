@@ -84,8 +84,7 @@ Output is displayed in the terminal in structured form after each run.
 - **Push-based algorithms (Push_A*, Push_IDA*)** could be improved by:  
   - Enhancing **deadlock detection** (not just simple corner blocking).  
   - Using a more **informative heuristic** than Manhattan distance.  
-  - Implementing stronger **pruning strategies** to reduce redundant searches.  
-  - Fixing existing **bugs** in state management and move validation.  
+  - Implementing stronger **pruning strategies** to reduce redundant searches.   
 - Explore hybrid approaches combining deterministic search (A*) with stochastic search (Simanneal).  
 - Implement parallel execution for Simanneal to reduce runtime variability.  
 
