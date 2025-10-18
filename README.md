@@ -2,11 +2,15 @@
 
 This project focuses on implementing and comparing various AI search algorithms. The algorithms were tested using **Sokoban** as the problem domain (Sokoban itself was not implemented by me, only used as a test environment).
 
+---
+
 > [!IMPORTANT]
 > This is a homework project for AI class (3rd year, 2nd sem)
 - This was implemented with the use of LLMs, copilot agent and Chat GPT
 - Please, use with caution because it may have unexpected bugs or unwanted behaviours
 - Educational purposes only
+
+---
 
 ## Algorithms Implemented
 
