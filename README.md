@@ -103,9 +103,7 @@ Output is displayed in the terminal in structured form after each run.
   - Implementing stronger **pruning strategies** to reduce redundant searches.  
   - Fixing existing **bugs** in state management and move validation.  
 - Explore hybrid approaches combining deterministic search (A*) with stochastic search (Simanneal).  
-- Implement parallel execution for Simanneal to reduce runtime variability.  
-
----
+- Implement parallel execution for Simanneal to reduce runtime variability.
 
 ## Licence
 This project is licensed under the MIT Licence. See the [LICENSE](./LICENSE) file for further details.  
