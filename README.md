@@ -4,6 +4,8 @@ This project focuses on implementing and comparing various AI search algorithms.
 
 ---
 
+## Before Proceeding
+
 > [!IMPORTANT]
 > This is a homework project for AI class (3rd year, 2nd sem)
 - This was implemented with the use of LLMs, copilot agent and Chat GPT
